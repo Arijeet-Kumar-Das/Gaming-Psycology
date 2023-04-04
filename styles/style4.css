@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 15vh;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-items {
+  display: flex;
+  padding: 50px;
+  list-style: none;
+  cursor: pointer;
+  font-family: inter;
+}
+
+.nav-item a {
+  padding: 10px;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.search {
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search > input {
+  padding: 5px 20px;
+}
+
+.icon {
+  background-color: red;
+  padding: 7px 5px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: rgb(154, 16, 16);
+}
+
+.buttons {
+  margin-right: 10px;
+}
+
+.btn2 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn3 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: inter;
+}
+
+.image {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro > h1 {
+  margin: 10px;
+  color: rgb(224, 149, 9);
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 10px 50px;
+  background-color: rgb(224, 149, 9);
+  color: white;
+  border: none;
+  cursor: pointer;
+}

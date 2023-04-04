@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 15vh;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-items {
+  display: flex;
+  padding: 50px;
+  list-style: none;
+  cursor: pointer;
+  font-family: inter;
+}
+
+.nav-item a {
+  padding: 10px;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.search {
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search > input {
+  padding: 5px 10px;
+}
+
+.icon {
+  background-color: red;
+  padding: 7px 5px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: rgb(154, 16, 16);
+}
+
+.buttons {
+  margin-right: 10px;
+}
+
+.btn2 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn3 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.about-section {
+  background-color: antiquewhite;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: inter;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.about-section > h1 {
+  font-size: 2.5rem;
+  color: rgb(25, 25, 149);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  border-radius: 5px;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card > h1,
+p {
+  margin: 10px;
+}

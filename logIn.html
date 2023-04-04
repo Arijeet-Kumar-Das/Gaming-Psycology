@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Psycology in video games</title>
+  </head>
+  <script>
+    function login() {
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+
+      // Hardcoded email and password
+      var hardcodedEmail = "Danish@gmail.com";
+      var hardcodedPassword = "123";
+
+      // Check if the email and password match the hardcoded values
+      if (email === hardcodedEmail && password === hardcodedPassword) {
+        // Redirect to the home page
+        window.location.href = "index.html";
+      } else {
+        // Show an error message
+        alert("Invalid email or password");
+      }
+    }
+  </script>
+  <body>
+    <div class="container">
+      <a href="index.html"
+        ><img
+          src="./assets/logo.png
+        "
+          height="80px"
+          width="80px"
+          alt=""
+        />
+      </a>
+      <h1>Login</h1>
+      <div class="inputs">
+        <input type="text" id="email" class="input" placeholder="Email" />
+        <input type="text" id="password" class="input" placeholder="Password" />
+      </div>
+      <div class="button">
+        <button class="btn" onClick="login()">Log In</button>
+      </div>
+    </div>
+  </body>
+</html>
