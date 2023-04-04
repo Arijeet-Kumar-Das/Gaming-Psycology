@@ -118,3 +118,13 @@ nav {
   border: none;
   cursor: pointer;
 }
+
+iframe {
+  margin-top: 30px;
+}
+
+.ad {
+  font-size: 15px;
+  padding: 10px;
+  background-color: white;
+}
